@@ -279,14 +279,12 @@ button {
   fill: currentColor;
 }
 .but-esc-wind:hover .svg-but-wind {
-  stroke: #ffffff;
+ fill: #ffffff;
 }
 .but-esc-wind:focus .svg-but-wind {
-  stroke: #ffffff;
+  fill: #ffffff;
 }
-.input-modal-window:focus .svg-peopl-avatar {
-  stroke: #ffffff;
-}
+
 .p-heroimg-window {
   Font-family: 'Roboto';
   font-style: normal;
@@ -311,6 +309,10 @@ button {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   fill: #2E2F42;
+}
+
+.input-modal-window:focus .svg-peopl-avatar {
+ fill: #4D5AE5;
 }
 .form-modal-window{
   margin-bottom: 8px; 
