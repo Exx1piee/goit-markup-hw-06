@@ -471,6 +471,7 @@ letter-spacing: 0.04em;
   color:#4D5AE5 ;
 }
 .modal-end-butt{
+  font-family: "Roboto", sans-serif;
 display:block;
 min-width: 169px;
 height: 56px;
@@ -478,7 +479,7 @@ font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
+
 justify-content: center;
 align-items: center;
 letter-spacing: 0.04em;
