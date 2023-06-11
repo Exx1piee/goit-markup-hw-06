@@ -477,12 +477,28 @@
           </div>
           <div class="input-comment">
             <label class="label-modal-window" for="user-comment">Comment</label>
-             <textarea name="user-comment" id="user-comment"  class="textarea-modal-window" placeholder="Text input"> </textarea>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="textarea-modal-window"
+              placeholder="Text input"
+            >
+            </textarea>
           </div>
           <div class="input-checkbox">
-           <input  id="user-privacy" type="checkbox"  value="true"  name="user-privacy" class="visually-hidden">
-           <label for="user-privacy" class="label-modal-window"> I accept the terms and conditions of the <span class="terms-window" ></span></label>
-             
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="visually-hidden modal-check"
+            />
+            <label for="user-privacy" class="label-modal-window">
+              <span class="terms-window">
+                <svg width="10" height="8"><use href="./images/icons.svg#checkbox"></use></svg></span
+            >
+              I accept the terms and conditions of the <a href="https://policies.google.com/privacy?hl=en-US" class="Privacy-a">Privacy Policy</a>
+              </label>
           </div>
         </form>
       </div>
