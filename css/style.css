@@ -456,11 +456,11 @@ button {
   overflow: hidden;
 }
 .modal-check:checked + .label-modal-window span{
-  
+  fill:#F4F4FD;
   background-color:#404bbf; 
   border: none;
 }
-.Privacy-a{
+.privacy-a{
   font-family: 'Roboto', sans-serif;
 font-size: 12px;
 line-height: 1.5;
@@ -469,6 +469,29 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 
   color:#4D5AE5 ;
+}
+.modal-end-butt{
+display:block;
+min-width: 169px;
+height: 56px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+justify-content: center;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+border-radius: 4px;
+margin:0px auto;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-end-butt:focus, .modal-end-butt:hover {
+  background-color: var(--active-link-main-color);
 }
 .bug-twitter-img {
   position: absolute;
